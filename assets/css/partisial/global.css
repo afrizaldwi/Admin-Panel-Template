@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #1b2430;
+  --color-secondary: #51557e;
+  --color-secondary-dark: #404258;
+  --color-secondary-light: #505266;
+  --color-light: #ffffff;
+  --color-grey: #eaeaea;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-grey);
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+}
